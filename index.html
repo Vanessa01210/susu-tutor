@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酥酥老師國中小家教 | 入口網</title>
+    <style>
+        /* 引入 Google Fonts - Noto Serif TC (思源宋體) 以符合截圖風格 */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&display=swap');
+
+        /* 定義專屬品牌色系 */
+        :root {
+            --color-orange: #E28743;
+            --color-milktea: #D4A373;
+            --color-green: #A3B18A;
+            --color-yellow: #E9C46A;
+            --color-darkbrown: #582F0E;
+            --bg-color: #FDFBF7; /* 搭配大地色的溫暖象牙白背景 */
+        }
+
+        body {
+            /* 修改字體為 Noto Serif TC，如果電腦沒有則使用其他明體/宋體 */
+            font-family: 'Noto Serif TC', "PMingLiU", "新細明體", serif; 
+            background-color: var(--bg-color);
+            color: var(--color-darkbrown);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 40px 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px; /* 移除了 [我是家長] 後，調整與下方按鈕的間距 */
+            color: var(--color-darkbrown);
+            letter-spacing: 2px;
+            font-weight: 700; /* 使用粗體 */
+        }
+
+        /* 共用按鈕樣式 */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 15px;
+            background-color: #ffffff;
+            color: var(--color-darkbrown);
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+            border: 2px solid transparent;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+            border-color: var(--color-milktea);
+        }
+
+        /* 預約試教 - 溫暖橘突顯 */
+        .btn.highlight {
+            background-color: #FFF9F2;
+            border: 1px dashed var(--color-orange);
+            color: var(--color-orange);
+            font-weight: bold;
+        }
+
+        .btn.highlight:hover {
+            background-color: var(--color-orange);
+            color: #ffffff;
+            border-style: solid;
+        }
+
+        /* IG 帳號連結 - 暖陽黃點綴 */
+        .btn.ig-btn {
+            color: var(--color-darkbrown);
+        }
+        .btn.ig-btn:hover {
+            border-color: var(--color-yellow);
+            color: var(--color-yellow);
+            font-weight: bold;
+        }
+
+        /* LINE 諮詢 - 抹茶綠 */
+        .btn.line-btn {
+            color: var(--color-green);
+            font-weight: bold;
+        }
+
+        .btn.line-btn:hover {
+            border-color: var(--color-green);
+        }
+
+        /* 底部返回按鈕 */
+        footer {
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #b0a8a0;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* 返回按鈕保持黑體 */
+        }
+
+        footer a:hover {
+            color: var(--color-darkbrown);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>酥酥老師國中小家教</h1>
+            <!-- 已經將 <p>我是家長</p> 移除 -->
+        </header>
+
+        <nav class="menu">
+<a href="about.html" class="btn">師資簡介</a>
+            
+            <!-- 將「即時排課總表」改為「課表查詢」，並連向您的 Google Apps Script 網址 -->
+            <!-- 加上 target="_blank" 讓它在新分頁開啟，避免家長離開您的首頁 -->
+            <a href="https://script.google.com/macros/s/AKfycbxVdP8KQoiMbk96LmTLCPTzjxpyE_lglo1PVt9u4Ty7Nd5nzIAi9Na8OO1GvEzrfkOk/exec" target="_blank" class="btn">課表查詢</a>
+
+<a href="faq.html" class="btn">酥酥老師｜師生問題包</a>
+<a href="https://lin.ee/vdA03QOG" target="_blank" class="btn line-btn">★☆LINE 諮詢課程☆★</a>
+ 
+            <a href="https://instagram.com/crispyyyyy0121" target="_blank" class="btn ig-btn">Instagram 教學日常</a>
+
+        </nav>
+
+        <footer>
+    </div>
+</body>
+</html>
