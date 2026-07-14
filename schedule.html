@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酥酥老師｜暑期＆新學期課表公告</title>
+    <!-- 引入高質感日系清新手寫感字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght=400;500&family=Noto+Sans+TC:wght=400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: 'Kiwi Maru', 'Noto Sans TC', sans-serif;
+            background-color: #faf6f0; 
+            background-image: radial-gradient(#e1d7c6 1.2px, transparent 1.2px);
+            background-size: 28px 28px;
+        }
+        
+        .handdrawn-box {
+            border: 2.5px solid #5c4e46;
+            border-radius: 16px;
+            box-shadow: 4px 4px 0px #5c4e46;
+            background-color: #ffffff;
+        }
+        
+        .slot-booked {
+            background-color: #f1ede6;
+            border: 1.5px dashed #a3968c;
+            color: #5c504b;
+        }
+        
+        .slot-available {
+            background-color: #fef3c7;
+            border: 2px solid #5c4e46;
+            color: #78350f;
+            box-shadow: 2px 2px 0px #5c4e46;
+            transition: all 0.15s ease;
+        }
+        .slot-available:hover {
+            transform: translate(-1px, -1px);
+            box-shadow: 3px 3px 0px #5c4e46;
+        }
+        
+        .slot-makeup {
+            background-color: #ecfdf5;
+            border: 1.5px dashed #059669;
+            color: #065f46;
+        }
+        
+        .title-badge {
+            background-color: #e98a6b;
+            border: 2px solid #5c4e46;
+            box-shadow: 2px 2px 0px #5c4e46;
+        }
+    </style>
+</head>
+<body class="py-12 px-4 min-h-screen">
+
+    <div class="max-w-5xl mx-auto">
+        
+        <!-- 頂端大公告欄（日系手札風） -->
+        <div class="handdrawn-box p-6 md:p-8 mb-10 relative overflow-hidden">
+            <div class="absolute top-0 right-0 title-badge text-white px-4 py-1 text-sm font-bold rounded-bl-xl">
+                📢 家長守則
+            </div>
+            
+            <h1 class="text-3xl font-bold mb-2 tracking-wide flex items-center gap-2 text-[#4a3e3d]">
+                酥酥老師 🌱
+            </h1>
+            <p class="text-lg font-medium text-[#e98a6b] mb-6">🌻 常態課表 🌻</p>
+            
+            <!-- 上課與請假制度公告 -->
+            <div class="text-base leading-relaxed space-y-4 text-[#5c504b]">
+                <div class="p-4 bg-[#fbf8f3] border-l-4 border-[#e98a6b] rounded-r-lg space-y-2">
+                    <p><span class="font-bold text-[#e98a6b]">⚠️ 換堂與臨時請假規範：</span></p>
+                    <ul class="list-disc pl-5 space-y-1 text-sm">
+                        <li>若因球隊訓練、賽程或重要行程需更改時段，煩請家長們先彼此協調交換。</li>
+                        <li>若需臨時請假，<span class="font-bold underline text-[#e98a6b]">請安排同樣時數的補課時段</span>（例如：請假 1 小時，下次即補課 1 小時，恕無法拆成零碎時間補課）。</li>
+                    </ul>
+                </div>
+
+                <div class="p-4 bg-[#fbf8f3] border-l-4 border-[#a3968c] rounded-r-lg space-y-2">
+                    <p><span class="font-bold text-gray-700">⏱️ 課堂突發狀況：</span></p>
+                    <p class="text-sm">若課堂因突發狀況延後（如塞車、孩子生病看診...等），老師皆可<span class="font-bold">現場等待 15 分鐘</span>。但若當天最終真的因故無法開始上課，將需酌收車馬費，謝謝爸爸媽媽的體諒。</p>
+                </div>
+
+                <div class="p-4 bg-[#fbf8f3] border-l-4 border-amber-500 rounded-r-lg space-y-2">
+                    <p><span class="font-bold text-amber-700">💰 收款時間與方式：</span></p>
+                    <p class="text-sm">學費收款時間固定為<span class="font-bold text-amber-700">「當月最後一堂課」</span>，付款方式採取【線上轉帳匯款】或【現金交給老師】都可以喔！</p>
+                </div>
+                
+                <p class="text-sm pt-2">💡 下方課表若顯示 <span class="inline-block bg-[#fef3c7] px-2 py-0.5 border border-[#5c4e46] text-xs font-bold rounded">✨ 尚有空檔</span> 的時段，歡迎有加課需求或新生家長直接私訊老師預約！</p>
+            </div>
+        </div>
+
+        <!-- 一到日課表網格 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- 週一 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期一 <span class="text-sm font-normal text-gray-400">Mon</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 16:30 - 18:00 (巧〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 18:30 - 19:30 (〇璿)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 20:00 - 21:30 (侑〇)</div>
+                </div>
+            </div>
+
+            <!-- 週二 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期二 <span class="text-sm font-normal text-gray-400">Tue</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 18:30 - 20:00 (宗〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 20:30 - 21:30 (柏〇)</div>
+                </div>
+            </div>
+
+            <!-- 週三 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期三 <span class="text-sm font-normal text-gray-400">Wed</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 18:00 - 19:00 (〇真)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 19:30 - 20:30 (雨〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 21:00 - 22:00 (奕〇)</div>
+                </div>
+            </div>
+
+            <!-- 週四 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期四 <span class="text-sm font-normal text-gray-400">Thu</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 18:10 - 19:10 (〇璿)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 19:20 - 20:20 (侑〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 20:30 - 22:00 (維〇)</div>
+                </div>
+            </div>
+
+            <!-- 週五 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期五 <span class="text-sm font-normal text-gray-400">Fri</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 18:30 - 19:30 (舒〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 20:00 - 22:00 (奕〇)</div>
+                </div>
+            </div>
+
+            <!-- 週六 -->
+            <div class="handdrawn-box p-5">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期六 <span class="text-sm font-normal text-gray-400">Sat</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="slot-makeup p-3 rounded-xl text-sm font-semibold text-center">🩹 補課 / 調課專用時段</div>
+                </div>
+            </div>
+
+            <!-- 週日 -->
+            <div class="handdrawn-box p-5 md:col-span-2 lg:col-span-3">
+                <h3 class="text-xl font-bold border-b-2 border-[#5c4e46] pb-2 mb-4 text-[#4a3e3d]">
+                    星期日 <span class="text-sm font-normal text-gray-400">Sun (精華密集日)</span>
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 10:00 - 11:30 (雨〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 13:30 - 15:30 (毓〇)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 16:00 - 17:00 (〇真)</div>
+                    <div class="slot-booked p-3 rounded-xl text-sm font-medium">✏️ 17:30 - 19:30 (奕〇)</div>
+                </div>
+                <p class="text-xs text-gray-400 mt-3 text-center">💡 週日各堂中間皆已精確預留 20-30 分鐘通勤安全防護罩</p>
+            </div>
+
+        </div>
+
+        <!-- 頁尾署名 -->
+        <div class="mt-12 text-center text-sm text-gray-400">
+            🌿 酥酥老師 ｜ 溫暖陪伴孩子的每一步
+        </div>
+
+    </div>
+
+</body>
+</html>
